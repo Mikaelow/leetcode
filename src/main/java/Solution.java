@@ -1,9 +1,13 @@
 class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        for (int i=0;i< nums.length;i++)
-            for (int j = i+1; j < nums.length; j++)
-                if (nums[i] + nums[j] == target)
-                    return new int[]{i,j};
-        return null;
+    public boolean isPalindrome(int x) {
+
+        String[] array= Integer.toString(x).split("");
+        for (int i= array.length-1;i>0;i--){
+            if (array[array.length - i-1].equals(array[i]))
+            {}
+            else
+                return false;
+        }
+        return true;
     }
 }
