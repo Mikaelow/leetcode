@@ -1,34 +1,37 @@
 class Solution {
     public boolean isValid(String s) {
-        char[] arrayChar= s.toCharArray();
-        for (int i=0;arrayChar.length>i;i++) {
-                try {
-                    if ((int) arrayChar[i] == 40) {
-                        if ((int) arrayChar[i + 1] != 41)
-                            return false;
-                        else if ((int) arrayChar[i + 1] == 41)
-                            i++;
-
+        char[] arrayChar=s.toCharArray();
+        for (int i=0;i< arrayChar.length;i++)
+        {
+            if ((int) arrayChar[i]==40) {
+                for (int j = i + 1; j < arrayChar.length; j++)
+                    if ((int) arrayChar[j] == 41) {
+                        arrayChar[j] = 0;
+                        arrayChar[i]=0;
+                        break;
                     }
-                    else if ((int) arrayChar[i] == 91) {
-                        if ((int) arrayChar[i + 1] != 93)
-                            return false;
-                        else if ((int) arrayChar[i + 1] == 93)
-                            i++;
-
+            }
+            else if ((int) arrayChar[i]==91) {
+                        for (int j = i + 1; j < arrayChar.length; j++)
+                            if ((int) arrayChar[j] == 93) {
+                                arrayChar[j] = 0;
+                                arrayChar[i] = 0;
+                                break;
+                            }
                     }
-                    else if ((int) arrayChar[i] == 123) {
-                        if ((int) arrayChar[i + 1] != 125)
-                            return false;
-                        else if ((int) arrayChar[i + 1] == 125)
-                            i++;
+            else if ((int) arrayChar[i]==123) {
+                for (int j = i + 1; j < arrayChar.length; j++)
+                    if ((int) arrayChar[j] == 125) {
+                        arrayChar[j] = 0;
+                        arrayChar[i] = 0;
+                        break;
                     }
-                }
-                catch(Exception e) {
-                    return false;
-                }
             }
 
+        }
+        for (int i=0;i< arrayChar.length;i++)
+            if (arrayChar[i]!=0)
+                return false;
         return true;
     }
 }
