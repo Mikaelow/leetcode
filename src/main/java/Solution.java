@@ -27,7 +27,6 @@ class Solution {
                         break;
                     }
             }
-
         }
         for (int i=0;i< arrayChar.length;i++)
             if (arrayChar[i]!=0)
