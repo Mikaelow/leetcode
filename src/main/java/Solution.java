@@ -25,6 +25,7 @@ class Solution {
                         arrayChar[j] = 0;
                         arrayChar[i] = 0;
                         break;
+
                     }
             }
         }
