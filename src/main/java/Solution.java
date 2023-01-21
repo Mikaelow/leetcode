@@ -5,7 +5,7 @@ class Solution {
         {
             if ((int) arrayChar[i]==40) {
                 for (int j = i + 1; j < arrayChar.length; j++)
-                    if ((int) arrayChar[j] == 41) {
+                    if ((int) arrayChar[j] == 41 && (j+1)%2==0) {
                         arrayChar[j] = 0;
                         arrayChar[i]=0;
                         break;
@@ -13,7 +13,7 @@ class Solution {
             }
             else if ((int) arrayChar[i]==91) {
                         for (int j = i + 1; j < arrayChar.length; j++)
-                            if ((int) arrayChar[j] == 93) {
+                            if ((int) arrayChar[j] == 93 && (j+1)%2==0) {
                                 arrayChar[j] = 0;
                                 arrayChar[i] = 0;
                                 break;
@@ -21,7 +21,7 @@ class Solution {
                     }
             else if ((int) arrayChar[i]==123) {
                 for (int j = i + 1; j < arrayChar.length; j++)
-                    if ((int) arrayChar[j] == 125) {
+                    if ((int) arrayChar[j] == 125 && (j+1)%2==0) {
                         arrayChar[j] = 0;
                         arrayChar[i] = 0;
                         break;
