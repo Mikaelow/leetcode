@@ -3,8 +3,8 @@ class main {
 
 
         Solution soultion= new Solution();
-        ListNode cod=soultion.mergeTwoLists(new ListNode(123),new ListNode(234));
-        System.out.println(cod);
+        ListNode cod=soultion.mergeTwoLists(new ListNode(1234),new ListNode(234));
+        System.out.println(cod.val);
 
     }
     }
