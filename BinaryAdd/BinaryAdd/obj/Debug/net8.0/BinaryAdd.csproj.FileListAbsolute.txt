@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\bin\Debug\net8.0\BinaryAdd.exe
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\bin\Debug\net8.0\BinaryAdd.deps.json
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\bin\Debug\net8.0\BinaryAdd.runtimeconfig.json
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\bin\Debug\net8.0\BinaryAdd.dll
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\bin\Debug\net8.0\BinaryAdd.pdb
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\obj\Debug\net8.0\BinaryAdd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\obj\Debug\net8.0\BinaryAdd.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\obj\Debug\net8.0\BinaryAdd.AssemblyInfo.cs
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\obj\Debug\net8.0\BinaryAdd.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\obj\Debug\net8.0\BinaryAdd.dll
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\obj\Debug\net8.0\refint\BinaryAdd.dll
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\obj\Debug\net8.0\BinaryAdd.pdb
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\obj\Debug\net8.0\BinaryAdd.genruntimeconfig.cache
+C:\Users\Admin\Desktop\code\BinaryAdd\BinaryAdd\obj\Debug\net8.0\ref\BinaryAdd.dll
